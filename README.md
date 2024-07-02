@@ -1,4 +1,8 @@
-# FinalProject
+# SkillTrove 
+  
+  SkillTrove is a angular miniproject based on online course plateform built using Angular and json server.
+ 
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
 
