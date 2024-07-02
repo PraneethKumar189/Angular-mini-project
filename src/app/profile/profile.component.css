@@ -1,0 +1,145 @@
+.bod{
+    background-image: linear-gradient(to bottom right,rgb(2, 2, 66),rgb(83, 145, 252));
+}
+.main{
+    display: flex;
+    margin: 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center
+}
+.prof1{
+    display: flex;
+    
+    height: 100vh;
+    width:40%;
+
+    
+}
+.prof2{
+    display: flex;
+
+    height: 100vh;
+    width: 60%;
+}
+.pr1{
+   height:90vh;
+   width: 80vw;
+   background-color: white;
+  margin-right: 5px;
+  margin-top: 55px;
+  border: 0px;
+  border-radius: 15px;
+}
+.pr2{
+    height: 90vh;
+  width: 80vw;
+  background-color: white;
+  margin-top: 55px;
+  margin-left: 5px;
+  border: 0px;
+  border-radius: 15px;
+}
+.p1{
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    color:#bcb8b8 ;
+    border: 1px solid #bcb8b8;
+    justify-content: center;
+    align-items: center;
+     border-radius: 15px;
+    width: 33vw;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.main .pr1 .btn1{
+    height: 35px;
+    width: 33vw;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 25px;border: 1px;
+    color: white;
+    font-weight: bold;
+    background-image:linear-gradient(to bottom right,rgb(2, 2, 66),rgb(83, 145, 252)) ;
+}
+
+.main .pr1 .pp{
+   
+
+   display: flex;
+   font-size: 7px;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: -5px;
+}
+
+@media  (min-width:400px){
+    main{
+        flex-direction: column;
+    }
+}
+.pr2 .h11 h1{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    width: 200px;
+    margin-right: 0px;
+    margin-left: 25px;
+    margin-top: 0px;
+    
+}
+.pp3{
+    height: 65vh;
+    color:#bcb8b8 ;
+    border: 1px solid #bcb8b8;
+     border-radius: 15px;
+    width: 55vw;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.btn2{
+ 
+    margin-top: 10px;
+    margin-left:33%;border: 1px solid white;
+    height: 35px;
+    margin-right: 10px;
+    width: 100px;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    background-image:linear-gradient(to bottom right,rgb(2, 2, 66),rgb(83, 145, 252)) ;
+}
+
+.pr2 .h1{
+    margin-top: 0px;
+}
+.pp3{
+    display: flex;
+    padding: 3px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#pp4{
+    border-radius: 30px;
+    padding: 5px;
+    height: 40px;
+    width: 90%;
+    margin: 10px;
+    background-image:linear-gradient(to bottom right,rgb(2, 2, 66),rgb(83, 145, 252)) ;
+}
+
+#pp5{
+    margin-top: 0px;
+}
+#pp5 p{
+    margin-top: 5px;
+    margin-left: 30px;
+}

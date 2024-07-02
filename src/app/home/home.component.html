@@ -1,0 +1,75 @@
+<style>
+    
+    .navb{display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        height: 50px;
+        width: 100%;
+     padding: 10px;
+     border: 1px;
+     background-color: azure;
+     border-radius: 11px;
+
+    }
+   .navb #mer{
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
+        height: 35px;
+        width: 70px;
+        border:1px;
+        padding: 4px;
+     margin-right: 10px;
+     margin-top: 0px;
+     padding: auto;justify-content: center;
+     align-items: center;
+     border-radius: 5px;
+    }
+    .navb #mer:hover,:active{
+        color: white;
+        background-color: rgb(118, 118, 255);
+    }
+    .home{
+        height: 100vh;width: 100%;
+        font-family: 'Bebas Neue', sans-serif;
+        color: rgb(117, 11, 204);
+    }
+    .contact{
+        background-image:linear-gradient(to bottom right, rgb(221, 0, 255), rgb(0, 51, 255));
+        height: 100vh;width: 100%;
+        font-family: 'Bebas Neue', sans-serif;
+        color:white;
+    }
+</style>
+<div style="background-image:linear-gradient(to bottom right, rgb(0, 255, 174), rgb(0, 225, 255));
+height: 100%;
+width: 100%;">
+    <section>
+        <nav class="navb">
+            <a id="mer"  href="/profile">Profile</a>
+            <a id="mer"  href="/mycrs">MyCourses</a>
+            <a id="mer" href="/course">Courses</a>
+            <a id="mer" href="/home">Home</a>
+       
+         
+        </nav>
+            
+          
+     
+        <div class="home">
+            <h1 style="font-size:110px">SkillTrove 2.1</h1>
+            <br>
+            <br>
+            <h3 style="font-size:80px">Learning that gets you
+                Skills for your present (and your future). Get started with us.</h3>
+        </div>
+       
+    </section></div>
+    <div class="contact">
+        <h1>Contact Us</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos amet nobis adipisci quisquam? Dolores fugiat, deserunt praesentium repellendus doloribus odit debitis nihil totam consequatur eligendi beatae sunt, voluptatibus quidem aliquam id reprehenderit, sequi nam tempore eveniet sit. Temporibus molestiae modi aliquam. Voluptas eaque sint voluptate eveniet accusamus nam excepturi totam quia accusantium! Exercitationem officia doloremque expedita inventore!
+        </p>
+          <footer>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam et quia, provident velit delectus aspernatur, obcaecati, hic sapiente eveniet pariatur nam illum cum quasi maxime natus. Aperiam voluptatum aliquam optio ad quas, iusto dolores rerum ab maxime odit nesciunt doloribus tempora dicta ut incidunt, reiciendis inventore, alias ratione voluptatibus officia repudiandae perferendis maiores nihil laborum! Non consequatur amet cum laborum esse quas fuga, nisi neque? Ipsa.
+          </footer>  
+    </div>
+<router-outlet></router-outlet>

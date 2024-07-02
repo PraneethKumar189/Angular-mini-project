@@ -1,0 +1,115 @@
+
+<section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100">
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col-12 col-lg-9 col-xl-7">
+          <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+            <div class="card-body p-4 p-md-5">
+              <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Registration Form</h3>
+              <form [formGroup]="RegisterForm" (ngSubmit)=" ProceedRegistration()" novalidate>
+  
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+  
+                    <div class="form-outline">
+                      <input type="text" id="Name" class="form-control form-control-lg" formControlName="name" required/>
+                      <label class="form-label" for="name">Name</label>
+                      <div *ngIf="!RegisterForm.controls.name.valid && (RegisterForm.controls.name?.dirty||RegisterForm.controls.name?.touched)" class="alert alert-danger">
+                        Name  is not valid
+                      </div>
+                    </div>
+  
+                  </div>
+                  <div class="col-md-6 mb-4">
+  
+                    <div class="form-outline">
+                      <input type="text" id="id" class="form-control form-control-lg" formControlName="id"/>
+                      <label class="form-label" for="id"> Id</label>
+                      <div *ngIf="!RegisterForm.controls.id.valid && (RegisterForm.controls.id?.dirty||RegisterForm.controls.id?.touched)" class="alert alert-danger">
+                        Id  is not valid
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+  
+                <div class="row">
+                  <div class="col-md-6 mb-4 d-flex align-items-center">
+  
+                    <div class="form-outline datepicker w-100">
+                      <input type="text" class="form-control form-control-lg" id="password" formControlName="password"/>
+                      <label for="password" class="form-label">Password</label>
+                      <div *ngIf="!RegisterForm.controls.password.valid && (RegisterForm.controls.password.dirty||RegisterForm.controls.password.touched)" class="alert alert-danger">
+                        Password  is not valid
+                      </div>
+                    </div>
+  
+                  </div>
+                  <div class="col-md-6 mb-4">
+  
+                    <h6 class="mb-2 pb-1">Gender: </h6>
+  
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="gender" id="female"
+                        value="male" checked formControlName="gender"/>
+                      <label class="form-check-label" for="female">Female</label>
+                    </div>
+  
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="gender" id="male"
+                        value="male" formControlName="gender" />
+                      <label class="form-check-label" for="male">Male</label>
+                    </div>
+  
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="gender" id="other"
+                        value="other" formControlName="gender"/>
+                      <label class="form-check-label" for="other">Other</label>
+                    </div>
+                    <div *ngIf="!RegisterForm.controls.gender.valid && (RegisterForm.controls.gender.dirty||RegisterForm.controls.gender.touched)" class="alert alert-danger">
+                      Gender  is not valid
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="row">
+                  <div class="col-md-6 mb-4 pb-2">
+  
+                    <div class="form-outline">
+                      <input type="email" id="email" class="form-control form-control-lg" formControlName="email"/>
+                      <label class="form-label" for="emailAddress">Email</label>
+                      <div *ngIf="!RegisterForm.controls.email.valid && (RegisterForm.controls.email?.dirty||RegisterForm.controls.email.touched)" class="alert alert-danger">
+                        Email  is not valid
+                      </div>
+                    </div>
+                   
+                  </div>
+                  <div class="col-md-6 mb-4 pb-2">
+  
+                    <div class="form-outline">
+                      <input type="tel" id="phoneNum" class="form-control form-control-lg" formControlName="phoneNum" required/>
+                      <label class="form-label" for="phoneNum">Phone Number</label>
+                      <div *ngIf="!RegisterForm.controls.phoneNum.valid && (RegisterForm.controls.phoneNum.dirty||RegisterForm.controls.phoneNum.touched)" class="alert alert-danger">
+                        Phone number  is not valid
+                      </div>
+                    </div>
+                   
+                  </div>
+                </div>
+  
+                 
+              
+  
+                <div class="mt-4 pt-2">
+                  <input class="btn btn-primary btn-lg" type="submit" [disabled]="!RegisterForm.valid "value="Submit" /> <a routerLink="/"> <input class="btn btn-primary btn-lg float-end" type="norm" value="Back to login" /></a>
+                </div>
+                
+             
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <router-outlet></router-outlet>

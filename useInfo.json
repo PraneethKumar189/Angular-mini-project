@@ -1,0 +1,70 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Don Bradman",
+      "password": "1893pran",
+      "email": "don@gmail.com",
+      "gender": "male",
+      "phoneNum": 6778992
+    },
+    {
+      "id": "191545807",
+      "name": "praneeth",
+      "password": "praneeth@",
+      "email": "praneeth@gmail.com",
+      "gender": "male",
+      "phoneNum": "9801328711"
+    },
+    {
+      "id": "191545802",
+      "name": "Arjun",
+      "password": "arjn23",
+      "email": "arj@gmail.com",
+      "gender": "male",
+      "phoneNum": "5987629378"
+    },
+    {
+      "id": "7",
+      "name": "prane",
+      "password": "[ioijo",
+      "email": "lyguyi@gmail.com",
+      "gender": "male",
+      "phoneNum": "549658790"
+    },
+    {
+      "name": "Steve Smith",
+      "id": "10002",
+      "password": "56",
+      "email": "manojgkumar59@gmail.com",
+      "gender": "male",
+      "phoneNum": "7068800988"
+    }
+  ],
+  "clist": [
+    {
+      "user": "praneeth",
+      "cid": 12,
+      "cname": "Graphic Desighning",
+      "id": 1
+    },
+    {
+      "user": "praneeth",
+      "cid": 15,
+      "cname": "Programming in Python",
+      "id": 2
+    },
+    {
+      "user": "praneeth",
+      "cid": 13,
+      "cname": "Programing in Java",
+      "id": 3
+    },
+    {
+      "user": "praneeth",
+      "cid": 16,
+      "cname": "Data Science",
+      "id": 6
+    }
+  ]
+}

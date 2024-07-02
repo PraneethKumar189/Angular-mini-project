@@ -1,0 +1,34 @@
+<div class="bod">
+    <div class="main">
+        <div class="prof1">
+            <div class="pr1">
+            
+                <div class="pp">
+                    <img src="assets/prof34.png" alt="prp">
+                    <h1>{{this.name}}</h1>
+                </div>
+                <div class="p1"><div class="inf">
+                    <p>Id:{{this.id}}</p>
+                    <br>
+                    <p>Email:{{this.email}}</p>
+                    <br>
+                    <p>Gender:{{this.gender}}</p>
+                    <br>
+                    <p>Phone num:{{this.pn}}</p>
+                    
+                </div>
+                    
+    
+                    
+                </div><a  [routerLink]="['']">
+                    <button class="btn1">Loguot</button>
+                </a>
+                <a  href="/home"><button class="btn2"><-Home</button></a>
+            <button class="btn2" (click)="getuser()">Load</button>
+            </div>
+      
+            
+        </div>
+       
+
+<router-outlet></router-outlet>
