@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { AuthService } from '../authservice.service';
+import { OnInit } from '@angular/core';
 @Component({
   selector: 'app-profile',
   templateUrl: './profile.component.html',
   styleUrls: ['./profile.component.css']
 })
-export class ProfileComponent {
+export class ProfileComponent implements OnInit {
   constructor(private service:AuthService){}
   dat=sessionStorage.getItem('user');
   result:any;
@@ -15,7 +16,7 @@ export class ProfileComponent {
   gender;
   pn;
 
-  getuser(){
+  ngOnInit(){
     this.service.getbyid(this.dat).subscribe(item=>{
       this.result=item
       this.id=item[0].id;

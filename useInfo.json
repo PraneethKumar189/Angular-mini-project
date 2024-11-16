@@ -1,7 +1,7 @@
 {
   "user": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Don Bradman",
       "password": "1893pran",
       "email": "don@gmail.com",
@@ -39,6 +39,14 @@
       "email": "manojgkumar59@gmail.com",
       "gender": "male",
       "phoneNum": "7068800988"
+    },
+    {
+      "id": "848985",
+      "name": "numan m",
+      "password": "numan34",
+      "email": "numan@gmail",
+      "gender": "other",
+      "phoneNum": "567879809"
     }
   ],
   "clist": [
@@ -46,25 +54,37 @@
       "user": "praneeth",
       "cid": 12,
       "cname": "Graphic Desighning",
-      "id": 1
+      "id": "1"
     },
     {
       "user": "praneeth",
       "cid": 15,
       "cname": "Programming in Python",
-      "id": 2
+      "id": "2"
     },
     {
       "user": "praneeth",
       "cid": 13,
       "cname": "Programing in Java",
-      "id": 3
+      "id": "3"
     },
     {
       "user": "praneeth",
       "cid": 16,
       "cname": "Data Science",
-      "id": 6
+      "id": "6"
+    },
+    {
+      "id": "4800",
+      "user": "numan m",
+      "cid": 13,
+      "cname": "Programing in Java"
+    },
+    {
+      "id": "9bf9",
+      "user": "numan m",
+      "cid": 12,
+      "cname": "Graphic Desighning"
     }
   ]
 }
